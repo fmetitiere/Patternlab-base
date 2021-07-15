@@ -6,7 +6,7 @@
  * Heading 1 base styles
  */
 h1 {
-	@include typographyHeadingXl();
+	font-size: $font-size-xl;
 }
 
 /**

@@ -1,0 +1,11 @@
+{
+  "eventList": [{
+      "eventText": "Lorem Ipsum",
+      "buttonText": "Nano"
+    },
+    {
+      "eventText": "Lorem Ipsum",
+      "buttonText": "Nano"
+    }
+  ]
+}
