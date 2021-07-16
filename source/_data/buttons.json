@@ -6,5 +6,9 @@
   "buttonSecondary": {
     "buttonText": "Button Secondary",
     "variant": "secondary"
+  },
+  "buttonSmall": {
+    "buttonText": "Button Small",
+    "variant": "small"
   }
 }

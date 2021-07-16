@@ -1,7 +1,7 @@
-{{# navItems }}
-<nav class="navbar">
+<nav class="navbar {{navPosition}}">
   {{> atoms-logo }}
-  {{> molecules-nav-links }}
-  {{> atoms-button-secondary }}
+  <div class="content">
+    {{> molecules-nav-links }}
+    {{> atoms-button-small }}
+  </div>
 </nav>
-{{/ navItems }}

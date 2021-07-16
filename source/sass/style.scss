@@ -172,7 +172,7 @@ ul {
 
 .background-header {
   width: 100%;
-  height: 35rem;
+  height: 45rem;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -312,11 +312,30 @@ h5 {
 \*------------------------------------*/
 
 .navbar {
-  position: fixed;
   width: 100%;
   background: #000000ba;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 3.75rem;
+
+  a {
+    font-size: 0.75rem;
+    color: #fff;
+  }
+
+  &.fixed {
+    position: fixed;
+  }
+
+  button{
+      margin-left: 2rem;
+  }
 }
 
+.nav-link {
+  padding: 0 0.25rem;
+}
 
 /*------------------------------------*\
     #FORMS
@@ -962,11 +981,11 @@ tr {
  *
  * 1) Button or link that has functionality to it
  */
-.c-btn {
+button {
   display: inline-block;
-  border: 1px solid #131313;
-  border-radius: 8px;
-  background: #444;
+  background: $color-brand-orange;
+  border-radius: 0;
+  font-size: $font-size-sm-2;
   color: #fff;
   line-height: 1;
   font-weight: bold;
@@ -974,6 +993,21 @@ tr {
   border: 0;
   text-align: center;
   transition: all 0.15s ease-out;
+
+  &.secondary {
+    background: transparent;
+    color: $color-brand-orange;
+    border: 2px solid $color-brand-orange;
+  }
+
+  &.small {
+    background: transparent;
+    color: $color-brand-orange;
+    border: 2px solid $color-brand-orange;
+    font-size: $font-size-sm;
+    padding: 0.5rem 2rem;
+
+  }
 }
 
 .c-btn:hover,

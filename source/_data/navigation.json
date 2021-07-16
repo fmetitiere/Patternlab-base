@@ -3,19 +3,43 @@
     "styleModifier": "c-btn--small c-header__nav-btn js-nav-trigger",
     "buttonText": "Menu"
   },
-  "buttonSecondary": {
-    "buttonText": "Link"
+  "buttonSmall": {
+    "buttonText": "CONTACT"
   },
   "navItems": [{
-      "label": "Nav Item",
+      "label": "Licensing Compliance",
       "url": "#"
     },
     {
-      "label": "Nav Item",
+      "label": "Software Revenue Enhancement",
       "url": "#"
     },
     {
-      "label": "Nav Item",
+      "label": "Software Advisory",
+      "url": "#"
+    },
+    {
+      "label": "Governance & Compliance",
+      "url": "#"
+    },
+    {
+      "label": "Technology",
+      "url": "#"
+    },
+    {
+      "label": "About",
+      "url": "#"
+    },
+    {
+      "label": "Events",
+      "url": "#"
+    },
+    {
+      "label": "Resources",
+      "url": "#"
+    },
+    {
+      "label": "Blog",
       "url": "#"
     }
   ]
