@@ -1,0 +1,10 @@
+{
+  "industry-events": {
+    "backgroundHeader": "../../images/event.png",
+    "jumbotron": {
+      "category": "Industry Events",
+      "title": "Ideas are Everywhere",
+      "text": "Meet us on the path to value creation as we share best practices and customer successes across industries."
+    }
+  }
+}

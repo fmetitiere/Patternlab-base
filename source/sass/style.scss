@@ -150,12 +150,41 @@ ul {
 
 .background-header {
   width: 100%;
-  height: 30rem;
+  height: 35rem;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  align-items: center;
 
-  &.event {
-    background-image: url("../../images/event.png");
+  .jumbotron {
+
+    h5,
+    h2,
+    p {
+      color: white;
+    }
+  }
+
+}
+
+
+/*------------------------------------*\
+    #CONTAINERS
+\*------------------------------------*/
+
+.container{
+    padding: 0 $l-padding;
+}
+
+/*------------------------------------*\
+    #HEADER JUMBOTRON
+\*------------------------------------*/
+
+.jumbotron {
+  h5,
+  h2,
+  p {
+    color: black;
   }
 }
 
@@ -220,34 +249,11 @@ h5 {
 /*------------------------------------*\
     #PRIMARY NAVIGATION
 \*------------------------------------*/
-/**
- * Primary navigation existing in the header and maybe the footer
- */
-.c-primary-nav {
-  margin-left: auto;
-}
 
-/**
-   * Primary navigation list
-   */
-.c-primary-nav__list {
-  display: flex;
-}
-
-/**
-   * Primary navigation item
-   */
-.c-primary-nav__item {
-  margin-left: 2rem;
-}
-
-/**
-   * Primary navigation link
-   */
-.c-primary-nav__link {
-  display: block;
-  padding: 0.5rem 0;
-  cursor: pointer;
+.navbar{
+    position: fixed;
+    width: 100%;
+    background: #000000ba;
 }
 
 
@@ -425,6 +431,11 @@ img {
 p {
   margin-bottom: 1rem;
   font-size: $font-size-sm-2;
+}
+
+small {
+  margin-bottom: 1rem;
+  font-size: $font-size-sm;
 }
 
 /**
