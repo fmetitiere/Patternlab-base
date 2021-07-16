@@ -1,3 +1,10 @@
 {
-	"buttonText" : "Button"
+  "buttonPrimary": {
+    "buttonText": "Button Primary",
+    "variant": ""
+  },
+  "buttonSecondary": {
+    "buttonText": "Button Secondary",
+    "variant": "secondary"
+  }
 }

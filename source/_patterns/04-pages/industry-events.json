@@ -1,6 +1,7 @@
 {
   "industry-events": {
     "backgroundHeader": "../../images/event.png",
+    "align": "",
     "jumbotron": {
       "category": "Industry Events",
       "title": "Ideas are Everywhere",

@@ -1,38 +1,23 @@
 {
-    "navToggle" : {
-        "styleModifier" : "c-btn--small c-header__nav-btn js-nav-trigger",
-        "buttonText" : "Menu"
+  "navToggle": {
+    "styleModifier": "c-btn--small c-header__nav-btn js-nav-trigger",
+    "buttonText": "Menu"
+  },
+  "buttonSecondary": {
+    "buttonText": "Link"
+  },
+  "navItems": [{
+      "label": "Nav Item",
+      "url": "#"
     },
-    "navItems" : [
-        {
-            "label" : "Nav Item",
-            "url" : "#"
-        },
-        {
-            "label" : "Nav Item",
-            "url" : "#"
-        },
-        {
-            "label" : "Nav Item",
-            "url" : "#"
-        }
-    ],
-    "footerNav" : [
-        {
-            "label" : "Footer Nav",
-            "url" : "#"
-        },
-        {
-            "label" : "Footer Nav",
-            "url" : "#"
-        },
-        {
-            "label" : "Footer Nav",
-            "url" : "#"
-        },
-        {
-            "label" : "Footer Nav",
-            "url" : "#"
-        }
-    ]
+    {
+      "label": "Nav Item",
+      "url": "#"
+    },
+    {
+      "label": "Nav Item",
+      "url": "#"
+    }
+  ]
+
 }
