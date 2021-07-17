@@ -8,6 +8,49 @@
       "category": "Industry Events",
       "title": "Ideas are Everywhere",
       "text": "Meet us on the path to value creation as we share best practices and customer successes across industries."
+    },
+    "eventsModule": {
+      "eventListTitle": "Meet us at these upcoming events",
+      "event": {
+        "regularImage": "../../images/event-1.png",
+        "date": "April 26, 2021 - May 5, 2021",
+        "title": "World Intellectual Property Forum 2021",
+        "content": "The digitalization of License Compliance in the Post-COVID Era, and Why the Old Models Won’t Work Any Longer",
+        "buttonPrimary": {
+          "buttonText": "Learn More"
+        }
+      },
+      "eventList": {
+        "eventListTitle": "Recent events where Connor team participated",
+        "event": [{
+            "regularImage": "../../images/event-1.png",
+            "date": "",
+            "title": "World Intellectual Property Forum 2021",
+            "content": "The digitalization of License Compliance in the Post-COVID Era, and Why the Old Models Won’t Work Any Longer",
+            "buttonPrimary": {
+              "buttonText": "Learn More"
+            }
+          },
+          {
+            "regularImage": "../../images/event-2.png",
+            "date": "",
+            "title": "LES Scandinavia: IP Royalties – What and How",
+            "content": "For anyone who is interested in learning leading practices and strategies from Nokia and Connor about IR Royalties, this is the webinar for you",
+            "buttonPrimary": {
+              "buttonText": "Learn More"
+            }
+          },
+          {
+            "regularImage": "../../images/event-3.png",
+            "date": "",
+            "title": "Strategy Update for IP and License Compliance",
+            "content": "Strategy update for IP and licenese compliance — new ways to effectively mange wordwide compliance engagements",
+            "buttonPrimary": {
+              "buttonText": "Learn More"
+            }
+          }
+        ]
+      }
     }
   }
 }

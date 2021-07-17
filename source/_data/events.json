@@ -1,6 +1,36 @@
 {
-  "events": {
-    "eventText": "Lorem Ipsum",
-    "buttonText": "Nanosadas"
+  "eventsModule": {
+    "eventListTitle": "Lorem ipsum",
+    "event": {
+      "regularImage": "https://via.placeholder.com/600x400",
+      "date": "April 26, 2021",
+      "title": "Lorem Ipsum",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "buttonPrimary": {
+        "buttonText": "Learn More"
+      }
+    },
+    "eventList": {
+      "eventListTitle": "Lorem ipsum",
+      "event": [{
+          "regularImage": "https://via.placeholder.com/600x400",
+          "date": "April 26, 2021",
+          "title": "Lorem Ipsum",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "buttonPrimary": {
+            "buttonText": "Learn More"
+          }
+        },
+        {
+          "regularImage": "https://via.placeholder.com/600x400",
+          "date": "April 26, 2021",
+          "title": "Lorem Ipsum",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "buttonPrimary": {
+            "buttonText": "Learn More"
+          }
+        }
+      ]
+    }
   }
 }

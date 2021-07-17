@@ -219,6 +219,10 @@ ul {
   padding: 0 $l-padding;
 }
 
+section {
+  padding: $l-padding;
+}
+
 /*------------------------------------*\
     #HEADER JUMBOTRON
 \*------------------------------------*/
@@ -259,6 +263,7 @@ h1 {
   font-size: $font-size-xl;
   font-weight: bold;
   line-height: $line-height-xl;
+  margin-bottom: $spacing;
 }
 
 /**
@@ -268,6 +273,7 @@ h2 {
   font-size: $font-size-large;
   font-weight: bold;
   line-height: 1.2;
+  margin-bottom: $spacing;
 }
 
 /**
@@ -277,6 +283,7 @@ h3 {
   font-size: $font-size-med-2;
   font-weight: bold;
   line-height: 1.2;
+  margin-bottom: $spacing;
 }
 
 /**
@@ -286,6 +293,7 @@ h4 {
   font-size: $font-size-med;
   font-weight: bold;
   line-height: 1.2;
+  margin-bottom: $spacing;
 }
 
 /**
@@ -295,13 +303,14 @@ h5 {
   font-size: $font-size-sm-2;
   font-weight: bold;
   line-height: 1.2;
+  margin-bottom: $spacing;
 }
 
 
 /**
- * Heading 5 base styles
+ * Heading 6 base styles
  */
-h5 {
+h6 {
   font-size: $font-size-sm;
   font-weight: normal;
   line-height: 1.2;
@@ -318,6 +327,7 @@ h5 {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 3.75rem;
+  z-index: 20;
 
   a {
     font-size: 0.75rem;
@@ -328,8 +338,8 @@ h5 {
     position: fixed;
   }
 
-  button{
-      margin-left: 2rem;
+  button {
+    margin-left: 2rem;
   }
 }
 
@@ -993,6 +1003,7 @@ button {
   border: 0;
   text-align: center;
   transition: all 0.15s ease-out;
+  height: fit-content;
 
   &.secondary {
     background: transparent;
@@ -1035,4 +1046,40 @@ button {
   height: 1rem;
   fill: #fff;
   transition: fill 0.15s ease-out;
+}
+
+
+/*------------------------------------*\
+    #EVENTS
+\*------------------------------------*/
+
+.event {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-column-gap: 2rem;
+
+  >div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-top: 3px solid #192537;
+    border-bottom: 1px solid #717273;
+    padding: 2rem 0;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
+.event-block {
+  margin-bottom: 8rem;
+
+  .title {
+    margin-bottom: 3rem;
+  }
+
+  img {
+    filter: grayscale(1);
+  }
 }

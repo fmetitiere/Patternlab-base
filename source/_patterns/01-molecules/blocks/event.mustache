@@ -1,7 +1,18 @@
-{{# events }}
-
-    <h1>{{ eventText }}</h1>
-
-    {{>atoms-button }}
-
-{{/ events }}
+<div class="event-block">
+  <h3 class="title">{{ eventListTitle }}</h3>
+  {{# event }}
+    <div class="event">
+        <div>
+        {{>atoms-regular-image }}
+        </div>
+        <div>
+        <small>{{ date }}</small>
+        <h4>{{ title }}</h4>
+        <p>{{ content }}</p>
+        </div>
+        <div>
+        {{>atoms-button }}
+        </div>
+    </div>
+  {{/ event }}
+</div>
