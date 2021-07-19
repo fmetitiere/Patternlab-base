@@ -4,21 +4,11 @@
 
 This is an improved version of [PatternLab Node Edition Gulp](https://github.com/pattern-lab/edition-node-gulp) with SASS compilation included.
 
-Check out the [Technical Bits](#technical-bits) if you want to learn more about it.
-
-## Setup and run
-
 ### Requirements
 
 The (main) requirement for running this project is [Node](https://nodejs.org) and [NPM](https://www.npmjs.com) (which usually comes when installing Node).
 
 The recommended way to have NPM installed is via [NVM](https://github.com/creationix/nvm#installation) which will also allow you to have different versions installed at the same time.
-
-There's nothing wrong in using any other way to install Node, like the default system-installed Node version, as long as it's above version 5.0.
-
-_Optionally, but not recommended_: once you have installed Node and NPM, you can install Gulp 4 globally, as follows:
-
-    $ npm install -g gulpjs/gulp#v4.0.0
 
 You do not need this, as you will see later.
 
@@ -28,27 +18,18 @@ If you're stumbling on any error, have a look at the [troubleshooting section](#
 
 Clone the current repo:
 
-    $ git clone git@bitbucket.org:digitalrigbitbucketteam/patternlab-base-toolkit.git
-    $ cd patternlab-base-toolkit
+    $ git clone https://github.com/fmetitiere/Patternlab-base.git
+    $ cd patternlab-base-scalio
 
 Install all the dependencies:
 
-    $ npm install
+    $ yarn
 
 Run the project:
 
-    $ npm start
+    $ yarn start
 
 You can now access the website at <http://localhost:3000>.
-
-## Technical bits
-
-There are some major differences from the original project, namely:
-
-- SASS compilation
-- Concatenation of PL styles (`pattern-scaffolding` files)
-- Directory structure
-- Improved code standards and linting used throughout the project
 
 ### SASS compilation
 
