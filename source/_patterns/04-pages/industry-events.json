@@ -2,7 +2,7 @@
   "industry-events": {
     "backgroundHeader": "../../images/event.png",
     "navPosition": "fixed",
-    "align": "",
+    "align": "center",
     "logoImg": "../../images/connor-logo.png",
     "jumbotron": {
       "category": "Industry Events",
